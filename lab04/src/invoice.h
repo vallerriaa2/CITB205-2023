@@ -12,6 +12,8 @@ class Invoice {
 public:
     void add(Product product, int qty);
     double subtotal();
+private:
+    vector<Item> items;
 };
 
 
