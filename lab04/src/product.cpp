@@ -1,7 +1,11 @@
 #include "product.h"
 
 Product::Product(string name, double price) {
-    // TODO: store name and price as member variables
+    this->name = name;
+    if (price < 0) {
+        price = 0;
+    }
+    this->price = price;
 }
 
 double Product::getPrice() {
