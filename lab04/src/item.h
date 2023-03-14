@@ -7,6 +7,9 @@
 class Item {
 public:
     double total();
+private:
+    Product product;
+    int qty;
 };
 
 
