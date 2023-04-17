@@ -39,3 +39,4 @@ Makefile
 
 # Build artifact
 prog
+build/
