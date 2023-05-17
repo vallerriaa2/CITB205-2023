@@ -9,7 +9,7 @@ void Storage::printList(std::ostream out)
 {
 	for(auto & product : products)
 	{
-		out << product << std::endl;
+		//
 	}
 }
 
