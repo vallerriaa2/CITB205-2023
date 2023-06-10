@@ -1,19 +1,17 @@
 #pragma once
+#include <iostream>
 #include <string>
-#include "Storage.h"
 using namespace std;
-
 class Product
 {
+private:
 	string name;
-	int quantity;
+	int qty;
 
 public:
-	Product();
-	Product(string name, int quantity);	
-	
+	Product(string name, int qty);
+	void setQty(int qty);
+	string getName();
+	int getQty();
 };
-
-
-
 

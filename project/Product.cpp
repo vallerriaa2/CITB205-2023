@@ -1,9 +1,19 @@
 #include "Product.h"
 
-Product::Product(){}
-Product::Product(string name, int quantity)
+Product::Product(string name, int qty)
 {
 	this->name = name;
-	quantity = 0;
-	this->quantity = quantity;
+	this->qty = qty;
+}
+void Product::setQty(int qty)
+{
+	this->qty = qty;
+}
+string Product::getName()
+{
+	return name;
+}
+int Product::getQty()
+{
+	return qty;
 }
